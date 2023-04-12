@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #16db65;
+    --cor-terciaria: #31eb7b;
     --cor-hover: #1b1b1b;
 
     --font-primaria: 'Krona One', sans-serif;
@@ -37,6 +37,10 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--cor-terciaria);
+}
+
+.cabecalho-menu-link:hover {
+    transform: scale(1.03);
 }
 
 .principal {
@@ -104,7 +108,7 @@ strong {
 
 .principal-botoes-link:hover {
     background-color: var(--cor-hover);
-    /*padding: 4%;*/
+    transform: scale(1.03);
 }
 
 .principal-imagem {
